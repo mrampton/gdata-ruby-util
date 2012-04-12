@@ -17,7 +17,6 @@ $:.unshift(File.dirname(__FILE__))
 require 'gdata/http'
 require 'gdata/client'
 require 'gdata/auth'
-require 'gdata/maps'
 
 if RUBY_VERSION < '1.9'
   # This is for Unicode "support"
